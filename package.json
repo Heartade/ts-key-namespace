@@ -1,18 +1,32 @@
 {
-  "name": "ts-typed-keyboard",
+  "name": "ts-key-namespace",
   "version": "1.0.0",
-  "description": "A TypeScript namespace declaration for KeyboardEvent.key strings - sans ambient const enums.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "A TypeScript namespace declaration for KeyboardEvent.key strings, just in case your code is allergic to enums.",
+  "files": [
+    "Key.d.ts"
+  ],
+  "types": "Key.d.ts",
+  "main": "Key.d.ts",
+  "scripts": {},
   "keywords": [
     "typescript",
     "keyboardevent",
     "keycode",
     "key",
-    "keyboard"
+    "keyboard",
+    "event.key"
   ],
-  "author": "Daniel Soohan Park",
-  "license": "MIT"
+  "author": {
+    "name": "Daniel Soohan Park",
+    "email": "soohan@heartade.dev",
+    "url": "https://heartade.dev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "rollup": "^2.67.2",
+    "ts-node": "^10.5.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
+  }
 }
