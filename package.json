@@ -2,12 +2,11 @@
   "name": "ts-key-namespace",
   "version": "1.0.0",
   "description": "A TypeScript namespace declaration for KeyboardEvent.key strings, just in case your code is allergic to enums.",
-  "files": [
-    "Key.d.ts"
-  ],
-  "types": "Key.d.ts",
-  "main": "Key.d.ts",
-  "scripts": {},
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [
     "typescript",
     "keyboardevent",
@@ -29,7 +28,6 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.9.0",
-    "rollup": "^2.67.2",
     "ts-node": "^10.5.0",
     "tslib": "^2.3.1",
     "typescript": "^4.5.5"
