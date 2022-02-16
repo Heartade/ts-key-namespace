@@ -21,6 +21,11 @@
     "email": "soohan@heartade.dev",
     "url": "https://heartade.dev"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heartade/ts-key-namespace.git"
+  },
+  "homepage": "https://github.com/Heartade/ts-key-namespace",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.9.0",
