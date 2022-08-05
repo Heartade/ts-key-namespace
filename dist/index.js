@@ -1,3 +1,4 @@
+"use strict";
 /**
  *
  * The key descriptions are copy-pasta'd from Nathan Friend's [ts-key-enum](https://www.npmjs.com/package/ts-key-enum).
@@ -26,10 +27,12 @@
  * SOFTWARE.
  *
  */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Key = void 0;
 /**
  * Namespace of standard non-printable `KeyboardEvent.Key` values.
  */
-export var Key;
+var Key;
 (function (Key) {
     Key.Unidentified = "Unidentified";
     Key.Alt = "Alt";
@@ -347,5 +350,5 @@ export var Key;
     Key.Divide = "Divide";
     Key.Subtract = "Subtract";
     Key.Separator = "Separator";
-})(Key || (Key = {}));
-export default Key;
+})(Key = exports.Key || (exports.Key = {}));
+exports.default = Key;
