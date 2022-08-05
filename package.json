@@ -1,6 +1,6 @@
 {
   "name": "ts-key-namespace",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A TypeScript namespace declaration for KeyboardEvent.key strings, just in case your code is allergic to enums.",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
